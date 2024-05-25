@@ -1,0 +1,26 @@
+database:
+  name: your_database
+  schema: your_schema
+
+hadoop:
+  nameservice: your_hadoop_nameservice
+
+snowflake:
+  credential_path: /path/to/credentials
+  warehouse: your_warehouse
+  webproxy:
+    protocol: http
+    host: localhost
+    port: 3128
+
+start_date: "2020-01-01"
+end_date: "2022-12-31"
+
+
+"""Explanation:
+
+Configuration Sections:
+database: Contains database name and schema.
+hadoop: Contains Hadoop nameservice.
+snowflake: Contains Snowflake configuration, including credentials and warehouse settings.
+start_date and end_date: Define the date range for data migration."""
